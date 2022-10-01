@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+    cursor: pointer;
+    transition: 0.3s all;
 }
 
 .text-white{
@@ -19,7 +27,7 @@
     cursor: pointer;
 }
 
-.blue-section{
+.blue-background{
     background-color: rgba(29, 128, 159, 1);
 }
 
@@ -68,8 +76,6 @@
 }
 
 .cover-content a{
-    background-color: #1D809F;
-    border-color: #1D809F;
     color: white;
 }
 
@@ -228,9 +234,9 @@
 }
 
 .footer-icon{
-    background-color: #1D809F;
     margin: 0.3rem;
     width: 60px;
+    transition: 0.3s all;
 }
 
 .footer-icon svg{
@@ -241,4 +247,8 @@
 
 .footer-content{
     margin-top: 2rem;
+}
+
+.footer-icon:hover,a.blue-background:hover{
+    background-color: #155d74;
 }
